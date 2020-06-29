@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
 	By contactEmail = By.id("recipient-email");
 	By contactName = By.id("recipient-name");
 	By contactMessage = By.id("message-text");
-	By sendMessage = By.xpath("//button[@class='btn btn-primary' and text()='Send message']");
+	//By sendMessage = By.xpath("//button[@class='btn btn-primary' and text()='Send message']");
 	
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
 		writeText(contactEmail, cemail);
 		writeText(contactName, cname);
 		writeText(contactMessage, smessage);
-		click(sendMessage);
+		//click(sendMessage);
 		Thread.sleep(5000);
 		Alert alert = driver.switchTo().alert();
 		alert.accept();

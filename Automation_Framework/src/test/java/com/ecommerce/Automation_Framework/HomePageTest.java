@@ -9,11 +9,11 @@ public class HomePageTest extends BaseTest{
 	@Test
 	public void verifysendContactMessage() throws IOException, InterruptedException
 	{
-		LoginPage login = new LoginPage(driver);
-		login.doLogin();
+		LoginPage login1 = new LoginPage(driver);
+		login1.doLogin();
 		HomePage homePage = new HomePage(driver);
 		homePage.sendMessageToContact("test@gmail.com", "Test", "Message");
-		login.doLogout();
+		login1.doLogout();
 	}
 
 }

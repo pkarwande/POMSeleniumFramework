@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ecommerce.Automation_Framework.PhonePageTest">
+      <class name="com.ecommerce.Automation_Framework.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="orderPhone"/>
+          <include name="tearDown"/>
+          <include name="verifysendContactMessage"/>
         </methods>
-      </class> <!-- com.ecommerce.Automation_Framework.PhonePageTest -->
+      </class> <!-- com.ecommerce.Automation_Framework.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

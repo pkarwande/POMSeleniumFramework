@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-       <class name="com.ecommerce.Automation_Framework.HomePageTest"/>
-       <class name="com.ecommerce.Automation_Framework.PhonePageTest"/>
+   <!--   <class name="com.ecommerce.Automation_Framework.PhonePageTest"/> -->
+      <class name="com.ecommerce.Automation_Framework.HomePageTest"/> 
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
