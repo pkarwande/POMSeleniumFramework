@@ -17,6 +17,8 @@ import org.testng.annotations.BeforeMethod;
 //import com.sun.mail.imap.Utility;
 
 public class BaseTest {
+	
+	//This is test class
 
 public WebDriver driver;
 	
