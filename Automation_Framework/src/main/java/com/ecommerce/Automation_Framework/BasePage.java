@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 	
+	//This is BasePage for demoB branch
+	
 	WebDriver driver;
 	WebDriverWait wait;
 	
